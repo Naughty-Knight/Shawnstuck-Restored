@@ -26,6 +26,6 @@ null,
 {"id":24,"expanded":false,"name":"Ending","order":5,"parentId":2,"scrollX":819,"scrollY":455.5},
 {"id":25,"expanded":true,"name":"CurtisBattle","order":24,"parentId":3,"scrollX":816,"scrollY":800},
 {"id":26,"expanded":false,"name":"MTGBattle","order":25,"parentId":3,"scrollX":811,"scrollY":984.5},
-{"id":27,"expanded":false,"name":"NuclearThrone","order":26,"parentId":3,"scrollX":811,"scrollY":604.5},
+{"id":27,"expanded":false,"name":"NuclearThrone","order":26,"parentId":3,"scrollX":811,"scrollY":484.5},
 {"id":28,"expanded":true,"name":"TheGate","order":27,"parentId":3,"scrollX":991,"scrollY":1012.5}
 ]
