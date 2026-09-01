@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"atypeId":1,"description":"Disclaimer: Cannot scan for power levels over 9000. \nIncreases HP","etypeId":2,"traits":[],"iconIndex":133,"name":"Scouter","note":"","params":[250,0,0,0,0,0,0,0],"price":0},
+{"id":2,"atypeId":1,"description":"Standard issue equipment issued to memebers of the Frieza Force. \nIncreases attack.","etypeId":3,"traits":[],"iconIndex":142,"name":"Frieza Force Gloves","note":"","params":[0,0,10,0,10,0,0,0],"price":0},
+{"id":3,"atypeId":1,"description":"Standard issue equipment issued to memebers of the Frieza Force. \nIncreases HP and defense.","etypeId":4,"traits":[],"iconIndex":135,"name":"Frieza Force Uniform","note":"","params":[250,0,0,5,0,5,0,0],"price":0},
+{"id":4,"atypeId":1,"description":"Standard issue equipment issued to memebers of the Frieza Force. \nIncreases speed.","etypeId":5,"traits":[],"iconIndex":140,"name":"Frieza Force Boots","note":"","params":[0,0,0,0,0,0,10,0],"price":0},
+{"id":5,"atypeId":1,"description":"The prescription is so strong, you can hardly see through \nthem. Increases HP.","etypeId":2,"traits":[],"iconIndex":133,"name":"Salary Man Glasses","note":"","params":[50,0,0,0,0,0,0,0],"price":10},
+{"id":6,"atypeId":1,"description":"The crack in the glass makes it hard to tell the time. \nIncreases attack.","etypeId":3,"traits":[],"iconIndex":142,"name":"Salary Man Watch","note":"","params":[0,0,5,0,5,0,0,0],"price":10},
+{"id":7,"atypeId":1,"description":"The iconic grey and white suit of a 9-5 salary man. \nIncreases defense.","etypeId":4,"traits":[],"iconIndex":135,"name":"Salary Man Suit","note":"","params":[0,0,0,5,0,5,0,0],"price":10},
+{"id":8,"atypeId":1,"description":"Shockingly expensive and not supplied by the employer. \nIncreases speed.","etypeId":5,"traits":[],"iconIndex":140,"name":"Salary Man Oxfords","note":"","params":[0,0,0,0,0,0,5,0],"price":10},
+{"id":9,"atypeId":1,"description":"The iconic red cap all Super Cheap Auto employess should wear. \nIncreases HP","etypeId":2,"traits":[],"iconIndex":133,"name":"SCA Cap","note":"","params":[250,0,0,0,0,0,0,0],"price":10},
+{"id":10,"atypeId":1,"description":"All employess must protect themselves. \nIncreases attack.","etypeId":3,"traits":[],"iconIndex":142,"name":"SCA Gloves","note":"","params":[0,0,25,0,25,0,0,0],"price":10},
+{"id":11,"atypeId":1,"description":"Comfy and robust. No one does it like Super Cheap Auto does. \nIncreases defense.","etypeId":4,"traits":[],"iconIndex":135,"name":"SCA Polo","note":"","params":[0,0,0,25,0,25,0,0],"price":10},
+{"id":12,"atypeId":1,"description":"Durable and comfortable. \nIncreases speed.","etypeId":5,"traits":[],"iconIndex":140,"name":"SCA Steelcaps","note":"","params":[0,0,0,0,0,0,25,0],"price":10},
+{"id":13,"atypeId":1,"description":"The all powerful Six Eyes. \nIncreases HP, attack, and speed. Grants a new skill.","etypeId":2,"traits":[{"code":43,"dataId":35,"value":1}],"iconIndex":133,"name":"The Six Eyes","note":"","params":[0,0,25,0,25,0,25,0],"price":0},
+{"id":14,"atypeId":1,"description":"The cursed energy emenating from them is paramount. \nIncreases Attack. Grants a new skill.","etypeId":3,"traits":[],"iconIndex":142,"name":"Curse Imbued Handwraps","note":"","params":[0,0,30,0,30,0,0,0],"price":0},
+{"id":15,"atypeId":1,"description":"The jacket worn by the infamous Super Senior. \nIncreases HP, attack, and defense.","etypeId":4,"traits":[],"iconIndex":135,"name":"Super Senior Jacket","note":"","params":[250,0,20,10,20,10,0,0],"price":0},
+{"id":16,"atypeId":1,"description":"A stolen pair of Air Jordan 1s, most likely belonging to Hakari. \nIncreases Speed","etypeId":5,"traits":[],"iconIndex":140,"name":"Hakari's Js","note":"","params":[0,0,0,0,0,0,30,0],"price":0},
+{"id":17,"atypeId":1,"description":"\"My Grandfather's Deck Has No Pathetic Cards, Kaiba. But It Does Contain The Unstoppable Exodia!\" \nIncreases Attack Defense","etypeId":2,"traits":[],"iconIndex":87,"name":"Head of Exodia","note":"","params":[0,0,5,5,5,5,0,0],"price":0},
+{"id":18,"atypeId":1,"description":"\"It Will Do No Good To Fight With Hate In Your Heart.\" \nIncreases attack and defense.","etypeId":3,"traits":[],"iconIndex":87,"name":"Hands of Exodia","note":"","params":[0,0,5,5,5,5,0,0],"price":0},
+{"id":19,"atypeId":1,"description":"\"I have to believe in the heart of the cards!\" \nIncreases attack and defense.","etypeId":4,"traits":[],"iconIndex":87,"name":"Body of Exodia","note":"","params":[0,0,5,5,5,5,0,0],"price":0},
+{"id":20,"atypeId":1,"description":"\"If you ask questions, this ridiculous story is never going to end.\" \nIncreases attack and defense.","etypeId":5,"traits":[],"iconIndex":87,"name":"Legs of Exodia","note":"","params":[0,0,5,5,5,5,0,0],"price":0}
+]

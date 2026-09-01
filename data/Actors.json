@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"ShawnMove","classId":1,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"OmoriboyAndShawn","traits":[],"initialLevel":1,"maxLevel":10,"name":"Shawn","nickname":"","note":"<battle command: attack />\n<battle command: skill_list />\n<battle command: guard />\n<battle command: item />","profile":""},
+{"id":2,"battlerName":"Actor1_8","characterIndex":7,"characterName":"Actor1","classId":2,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"nepeta","traits":[],"initialLevel":5,"maxLevel":10,"name":"Nepeta","nickname":"","note":"<battle command: attack />\n<battle command: skill_list />\n<battle command: guard />\n<battle command: item />","profile":""},
+{"id":3,"battlerName":"Actor3_8","characterIndex":0,"characterName":"NagitoOverworldSprites","classId":3,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"NagitoFaceSprites","traits":[],"initialLevel":5,"maxLevel":10,"name":"Nagito","nickname":"","note":"<battle command: attack />\n<battle command: skill_list />\n<battle command: guard />\n<battle command: item />","profile":""},
+{"id":4,"battlerName":"Actor2_7","characterIndex":0,"characterName":"Omoriboy_OverworldSprites","classId":4,"equips":[0,0,0,0,0],"faceIndex":3,"faceName":"OmoriboyAndShawn","traits":[],"initialLevel":2,"maxLevel":10,"name":"Omoriboy","nickname":"","note":"<battle command: attack />\n<battle command: skill_list />\n<battle command: guard />\n<battle command: item />","profile":""}
+]
