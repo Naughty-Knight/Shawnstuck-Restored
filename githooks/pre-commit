@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Auto-formats tracked JSON file(s) before every commit, so pretty-printed
+# JSON is what actually ends up in history (and therefore in every push).
+#
+# Note: this re-stages the WHOLE file. If you sometimes stage only part of
+# this file with `git add -p`, this hook will pull in your unstaged edits
+# too. Fine for a file that's always committed wholesale; worth knowing
+# otherwise.
+set -euo pipefail
+
+# --- edit this list for your project (paths relative to repo root) ---
+JSON_FILES=("data\System.json")
+# -----------------------------------------------------------------------
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+for f in "${JSON_FILES[@]}"; do
+    [ -f "$f" ] || continue
+    python3 githooks\\format_json.py "$f"
+    git add "$f"
+done

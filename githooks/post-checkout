@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Same idea as post-merge, but also covers `git checkout <branch>` and the
+# initial checkout right after `git clone`. Optional, but recommended so
+# "after every pull" also holds for branch switches.
+set -euo pipefail
+
+JSON_FILES=("data\System.json")
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+for f in "${JSON_FILES[@]}"; do
+    [ -f "$f" ] || continue
+    python3 githooks\\format_json.py "$f"
+done

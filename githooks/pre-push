@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Safety net: refuses to push if the tracked JSON file(s) aren't
+# pretty-printed. It fixes the file locally but does NOT commit for you --
+# amending/creating commits inside pre-push is unreliable, since git may
+# already have decided what to send before the hook finishes running.
+# You just need to review, `git add` + commit, and push again.
+set -euo pipefail
+
+JSON_FILES=("data\System.json")
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+output=$(python3 githooks\\format_json.py "${JSON_FILES[@]}")
+
+if [[ -n "$output" ]]; then
+    echo "" >&2
+    echo "Push aborted -- found unformatted JSON and fixed it locally:" >&2
+    echo "  $output" >&2
+    echo "" >&2
+    echo "Review the change, then run:" >&2
+    echo "  git add ${JSON_FILES[*]} && git commit -m 'Format JSON' && git push" >&2
+    exit 1
+fi
+
+exit 0

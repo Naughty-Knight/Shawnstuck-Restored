@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Re-formats tracked JSON file(s) after `git pull` / `git merge`, so your
+# working copy stays pretty-printed even if the incoming commit wasn't
+# (e.g. it came from a branch/PR that didn't have these hooks installed).
+#
+# This only touches your working directory, not history, so it's safe to
+# run automatically. Leaves any resulting change unstaged/uncommitted.
+set -euo pipefail
+
+JSON_FILES=("data\System.json")
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+for f in "${JSON_FILES[@]}"; do
+    [ -f "$f" ] || continue
+    python3 githooks\\format_json.py "$f"
+done
