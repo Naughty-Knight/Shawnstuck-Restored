@@ -1,8 +1,8 @@
 [
 null,
-{"id":1,"expanded":true,"name":"Debug","order":1,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":1,"expanded":true,"name":"Debug","order":1,"parentId":0,"scrollX":1139,"scrollY":457},
 {"id":2,"expanded":true,"name":"Scenes","order":2,"parentId":0,"scrollX":1139,"scrollY":457},
-{"id":3,"expanded":true,"name":"Maps","order":6,"parentId":0,"scrollX":819,"scrollY":455.5},
+{"id":3,"expanded":true,"name":"Maps","order":6,"parentId":0,"scrollX":1139,"scrollY":457},
 {"id":4,"expanded":true,"name":"Discord F1","order":7,"parentId":3,"scrollX":1131,"scrollY":457},
 {"id":5,"expanded":false,"name":"Opening","order":3,"parentId":2,"scrollX":1139,"scrollY":457},
 {"id":6,"expanded":false,"name":"Discord F2","order":8,"parentId":3,"scrollX":1131,"scrollY":983},
@@ -23,9 +23,9 @@ null,
 {"id":21,"expanded":false,"name":"TheLongDrive","order":4,"parentId":2,"scrollX":819,"scrollY":461},
 {"id":22,"expanded":false,"name":"Z Hub","order":23,"parentId":3,"scrollX":1131,"scrollY":647},
 null,
-{"id":24,"expanded":false,"name":"Ending","order":5,"parentId":2,"scrollX":819,"scrollY":455.5},
-{"id":25,"expanded":true,"name":"CurtisBattle","order":24,"parentId":3,"scrollX":816,"scrollY":764},
+{"id":24,"expanded":false,"name":"Ending","order":5,"parentId":2,"scrollX":1139,"scrollY":457},
+{"id":25,"expanded":true,"name":"CurtisBattle","order":24,"parentId":3,"scrollX":1131,"scrollY":983},
 {"id":26,"expanded":false,"name":"MTGBattle","order":25,"parentId":3,"scrollX":1131,"scrollY":543},
-{"id":27,"expanded":false,"name":"NuclearThrone","order":26,"parentId":3,"scrollX":1131,"scrollY":983},
-{"id":28,"expanded":true,"name":"TheGate","order":27,"parentId":3,"scrollX":1131,"scrollY":1143}
+{"id":27,"expanded":false,"name":"NuclearThrone","order":26,"parentId":3,"scrollX":1131,"scrollY":643},
+{"id":28,"expanded":true,"name":"TheGate","order":27,"parentId":3,"scrollX":1131,"scrollY":1100}
 ]
