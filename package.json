@@ -7,8 +7,6 @@
         "toolbar": false,
         "width": 816,
         "height": 624,
-        "icon": "icon/icon.png",
-        "resizable": false,
-        "fullscreen": true
+        "icon": "icon/icon.png"
     }
 }
