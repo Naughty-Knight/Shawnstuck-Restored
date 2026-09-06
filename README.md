@@ -9,6 +9,6 @@ Over two years later, with refined and matured tastes, the two same developers h
 
 # Installation
 
-Simply navigate towards the latest release and download to game. 
+Simply navigate towards the [latest release](https://github.com/Naughty-Knight/Shawnstuck-Restored/releases/tag/v1.0.0) and download to game.
 
 Alternatively, if you own a copy of RPG Maker MV, you can `git clone` the repository and build the game yourself, analyze the source, make changes, or simply pry and look for secrets.
